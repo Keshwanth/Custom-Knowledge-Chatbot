@@ -43,7 +43,7 @@ cd custom-knowledge-chatbot
 
 ```bash
 python -m venv venv
-.env\Scriptsctivate
+.venv/Scripts/activate
 ```
 
 ### 3. Install Dependencies
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### 4. Add Your Environment Variables
 
-Create a `.env` file in the root directory:
+Create a '.env' file in the root directory:
 
 ```env
 GOOGLE_API_KEY=your_gemini_api_key
