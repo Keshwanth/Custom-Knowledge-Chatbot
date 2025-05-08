@@ -1,10 +1,10 @@
-# Custom Knowledge Base Chatbot 🤖📚
+# Custom Knowledge Base Chatbot 
 
 This project is a chatbot powered by **LangChain**, **FAISS**, and **Gemini (Google Generative AI)**. It can answer user questions based on a custom text document using retrieval-augmented generation (RAG).
 
 ---
 
-## 🔍 Features
+##  Features
 
 - Answers questions using only your uploaded knowledge base (`smart_homes_info.txt`)
 - Uses **HuggingFace embeddings** + **FAISS** for fast semantic search
@@ -14,7 +14,7 @@ This project is a chatbot powered by **LangChain**, **FAISS**, and **Gemini (Goo
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Tool / Technology            | Purpose                                                                 |
 |------------------------------|-------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ This project is a chatbot powered by **LangChain**, **FAISS**, and **Gemini (Goo
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -62,11 +62,11 @@ LANGCHAIN_API_KEY=your_langsmith_api_key
 LANGCHAIN_PROJECT=custom-knowledge-chatbot
 ```
 
-> ⚠️ Never commit your real `.env` file — only use `.env.example` for sharing!
+>  Never commit your real `.env` file — only use `.env.example` for sharing!
 
 ---
 
-## 📁 Files
+##  Files
 
 | File                  | Description                                      |
 |-----------------------|--------------------------------------------------|
@@ -77,7 +77,7 @@ LANGCHAIN_PROJECT=custom-knowledge-chatbot
 
 ---
 
-## 🧪 Run the Chatbot
+##  Run the Chatbot
 
 ```bash
 streamlit run chatbot.py
@@ -87,12 +87,12 @@ Then open: http://localhost:8501
 
 ---
 
-## ✍️ Author
+##  Author
 
 Keshwanth G P
 
 ---
 
-## 📜 License
+##  License
 
 This project is open source and free to use under the MIT License.
