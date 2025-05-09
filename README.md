@@ -1,13 +1,13 @@
 # Custom Knowledge Base Chatbot 
 
-This project is a chatbot powered by **LangChain**, **FAISS**, and **Gemini (Google Generative AI)**. It can answer user questions based on a custom text document using retrieval-augmented generation (RAG).
+This project is a chatbot powered by **LangChain**, **ChromaDB**, and **Gemini (Google Generative AI)**. It can answer user questions based on a custom text document using retrieval-augmented generation (RAG).
 
 ---
 
 ##  Features
 
 - Answers questions using only your uploaded knowledge base (`smart_homes_info.txt`)
-- Uses **HuggingFace embeddings** + **FAISS** for fast semantic search
+- Uses **HuggingFace embeddings** + **ChromaDB** for fast semantic search
 - Integrated with **Gemini 1.5 Flash** for high-quality responses
 - Simple and clean **Streamlit web UI**
 - Environment-safe using `.env` for API keys
@@ -21,7 +21,7 @@ This project is a chatbot powered by **LangChain**, **FAISS**, and **Gemini (Goo
 | **Python**                   | Core programming language                                               |
 | **LangChain**                | Framework for building LLM + retrieval chains                           |
 | **Google Gemini API**        | Large Language Model (LLM) to generate human-like responses             |
-| **FAISS**                    | Vector database for fast document retrieval based on similarity         |
+| **ChromaDB**                 | Vector database for fast document retrieval based on similarity         |
 | **HuggingFace Transformers** | Used for text embeddings (`all-MiniLM-L6-v2`)                           |
 | **Streamlit**                | Frontend UI framework for building the chatbot interface                |
 | **python-dotenv**            | Securely load environment variables from a `.env` file                  |
@@ -90,9 +90,3 @@ Then open: http://localhost:8501
 ##  Author
 
 Keshwanth G P
-
----
-
-##  License
-
-This project is open source and free to use under the MIT License.
